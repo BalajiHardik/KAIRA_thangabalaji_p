@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form onsubmit="return false;">
+        <h2>Login</h2>
+        <label for="name">Username:</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="pass">Password :</label>
+        <input type="password" name="" id="pass">
+        <button onclick="Login()">Login</button>
+        <p>Did'nt have an account ? <a href="register.html">Register Here.</a></p>
+    </form>
+</body>
+</html>
+<style>
+    body{
+        background-color: blanchedalmond;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    form{
+        background-color: grey;
+        border-radius: 10px;
+        width:340px;
+        margin-left: 600px;
+        margin-top: 250px;
+    }
+    h2{
+        text-align: center;
+    }
+    label{
+        margin-left: 50px;
+        
+    }
+    input{
+        border-radius: 5px;
+    }
+    p{
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+
+        
+    }
+    a:hover{
+        color: greenyellow;
+    }
+    button{
+        margin-left: 150px;
+        margin-top: 30px;
+        border-radius: 5px;
+        width: 100px;
+        height: 30px;
+    }
+    button:hover{
+        background-color: greenyellow;
+    }
+
+</style>
+<script src="script.js">
+</script>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form onsubmit="return false;">
+        <h2>Register <i>KAIRA</i></h2>
+        <label for="name">Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="name">Age:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="number" name="age" id="age"><br><br>
+        <label for="name">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="email" name="mail" id="mail"><br><br>
+        <label for="name">Address:&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" name="add" id="add"><br><br>
+        <label for="pass">Password :</label>
+        <input type="password" name="" id="pass"><br><br>
+        <label for="pass">DoB :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="date" name="" id="dob"><br><br>
+        <label for="pass">Phone No:</label>
+        <input type="phone" name="" id="ph"><br><br>
+        <label for="pass">Occupation:</label>
+        <select id="occ">
+            <option value="it">IT</option>
+            <option value="business">Business</option>
+            <option value="sales">Sales</option>
+        </select><br><br>
+        <label for="income">Income:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="number" name="" id="income"><br><br>
+        <label for="male">Male</label>
+        <input type="radio" name="" id="male">
+        <label for="female">Female</label>
+        <input type="radio" name="" id="female"><br><br>
+        <label for="male">Id Proof</label><br>
+        <input type="file" name="" id="file"><br><br><br>
+        <button onclick="Register()">Register</button>
+        <p>Already registered? <a href="index.html">Login Here.</a></p>
+    </form>
+</body>
+</html>
+<style>
+        body{
+        background-color: blanchedalmond;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        
+    }
+    form{
+        background-color: grey;
+        border-radius: 10px;
+        width:440px;
+        margin-left: 550px;
+        margin-top: 100px;
+        overflow-y: scroll;
+    }
+    h2{
+        text-align: center;
+    }
+    label{
+        margin-left: 50px;
+        
+    }
+    input{
+        border-radius: 5px;
+        width: 250px;
+        height: 20px;
+    }
+    p{
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+
+        
+    }
+    a:hover{
+        color: greenyellow;
+    }
+    button{
+        margin-left: 150px;
+        margin-top: 10pxpx;
+        border-radius: 5px;
+        width: 100px;
+        height: 30px;
+        
+    }
+    button:hover{
+        background-color: greenyellow;
+    }
+    #file{
+        margin-left: 150px;
+    }
+    i{
+        color: blanchedalmond;
+    }
+</style>
+<script src="script.js"></script>
